@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
+@font-face {
+  font-family: AlexanaNeue;
+  src: url("/font/Alexana Neue.woff") format("woff");
+}
+@font-face {
+  font-family: Cubic11;
+  src: url("/font/Cubic_11_1.013_R.woff") format("woff");
+}
+@font-face {
+  font-family: NovaMono;
+  src: url("/font/NovaMono-Regular.woff") format("woff");
+}
+html, body {
+  margin: 0;
+  position: relative;
+}
+html a, body a {
+  color: none;
+  margin: auto;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.bg_deco2 {
+  background-image: url("/GoodPeople/index/image/bg/bg_deco2.svg");
+  height: 776px;
+  top: 250px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.bg_deco1 {
+  background-image: url("/GoodPeople/index/image/bg/bg_deco1.png");
+  background-size: contain;
+  background-position: right;
+  height: 450px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.bg_deco_stars1 {
+  top: 0;
+  height: 1978px;
+  background-size: contain;
+  background-image: url("/GoodPeople/index/image/bg/bg_deco_stars1-m.svg");
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.select_wrap {
+  position: absolute;
+  top: 407px;
+  left: 80px;
+}
+
+.selectBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 55px;
+  min-height: 153px;
+}
+.selectBox .selectCircle {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin: 11px 0px;
+}
+.selectBox .selected {
+  position: relative;
+  top: 20px;
+  width: 62px;
+  height: 62px;
+  border: none;
+  background-image: url(/GoodPeople/index/image/l-header/select/selected.svg);
+}
+
+.select_numberBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  right: 2px;
+  margin-top: 55px;
+}
+.select_numberBox .select_number {
+  font-family: "Cubic11";
+  color: #FFFFFF;
+  padding: 15px;
+  font-size: 28px;
+  position: relative;
+  top: 3px;
+}
+.select_numberBox .select_decoLine {
+  height: 37px;
+  width: 2px;
+  background-image: url(/GoodPeople/index/image/l-header/select/decoLine_number.svg);
+  background-repeat: no-repeat;
+}
+.select_numberBox .pointNumber {
+  color: #ffffff00;
+  font-size: 29px;
+  background-image: url(/GoodPeople/index/image/l-header/select/selectedCircle_number.svg);
+  background-repeat: no-repeat;
+}
+.select_numberBox .pointNumber_text {
+  font-family: "Cubic11";
+  color: #FFFFFF;
+  font-size: 29px;
+  position: absolute;
+  bottom: 14px;
+  left: 16px;
+}
+@keyframes pointNumber {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.l-body_planetIntrod {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-evenly;
+}
+.l-body_planetIntrod .ico-title {
+  display: inline-block;
+}
+.l-body_planetIntrod .content_title {
+  text-align: center;
+}
+.l-body_planetIntrod .content_title-text {
+  color: #fff;
+  font-size: 45px;
+  font-family: "Cubic11";
+  letter-spacing: 0.05em;
+  margin-left: 19px;
+}
+.l-body_planetIntrod .content_title-en {
+  color: #fff;
+  font-size: 16px;
+  font-family: "NovaMono";
+  line-height: 22px;
+  letter-spacing: 0.04em;
+}
+
+.body_bg-1 {
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 1764px;
+  background: radial-gradient(85.52% 117.85% at 57.97% 85.66%, #00004F 0%, #05003D 34.4%, #02001F 59%, #000008 84.2%, #000000 100%);
+}
+
+.body_bg-2 {
+  width: 100%;
+  min-height: 794px;
+  background: radial-gradient(69.51% 105.88% at 46.86% 81.92%, #00004F 0%, #05003D 34.4%, #02001F 62.68%, #000008 82.27%, #020001 100%);
+  transform: rotate(-180deg);
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  background-repeat: no-repeat;
+}

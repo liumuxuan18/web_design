@@ -1,0 +1,9 @@
+{
+    "typeAcquisition": {
+        "include":[
+            "jquery"
+        ]
+    }
+}
+
+// 引入可以幫助使用jq提示
